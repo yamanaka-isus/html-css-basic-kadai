@@ -1,20 +1,21 @@
 #top{
     width: 800px;
     background-color: #dcc9f4;
-    margin: 20px;
+    margin: 20px auto;
     text-align: center;
+
 }
 
 .top-child {
-  display: inline-block;
   width: 20%;
   background-color: #ffd9df;
+  display: inline-block;
 }
 
 #middle{
     width: 800px;
     height: 800px;
-    margin: 20px;
+    margin: 20px auto;
     background-color: #ffd9df;
 
 
@@ -26,30 +27,27 @@
 width: 200px;
 height: 200px;
 background-color: #87ceeb;
-
-
-    position: absolute; /* 親要素を基準に配置 */
-
-margin-top: 100px;
-margin-left: 100px;
+position: absolute;
+left: 100px;
+top: 100px;
 }
 
 #middle-child02{
 width: 200px;
 height: 200px;
 background-color: #87ceeb;
-    position: absolute; /* 親要素を基準に配置 */
-margin-top : 300px;
-margin-left: 300px;
+position: absolute; /* 親要素を基準に配置 */
+left: 300px;
+top: 300px;
 }
 
 #middle-child03{
 width: 200px;
 height: 200px;
 background-color: #87ceeb;
-    position: absolute; /* 親要素を基準に配置 */
-margin-top: 500px;
-margin-left: 500px;
+position: absolute; /* 親要素を基準に配置 */
+left: 500px;
+top: 500px;
 }
 
 #bottom{
@@ -57,7 +55,7 @@ margin-left: 500px;
     height: 300px;
     text-align: center;
     background-color: #87ceeb;
-    margin: 20px;
+    margin: 20px auto;
 }
 #bottom-child01{
     position: relative;
