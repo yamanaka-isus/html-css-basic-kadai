@@ -1,5 +1,5 @@
 body{
-    font-family: "Arial","Meiryo",sans-self;
+    font-family: "Arial","Meiryo",sans-serif;
         text-align: center;
 }
 
@@ -8,8 +8,8 @@ h1{
 
   font-family: "Josefin Sans", sans-serif;
   font-size: 2rem;
-  letter-spacing: 1.2rem;
-  text-shadow: 3px, 3px, 3px, black;
+  letter-spacing: 1.2em;
+  text-shadow: 3px, 3px, 2px, rgb(221, 221, 213);
   border-bottom: 3px solid rgb(115, 115, 114);
 
 }
@@ -30,4 +30,5 @@ h1{
 
 #basic > p{
     font-weight: bold;
+
 }
